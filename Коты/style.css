@@ -1,0 +1,87 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    font-size: 120%;
+    margin: 0;
+    font-weight: normal;
+
+}
+body {
+    font-family:cursive;
+}
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100vh;
+    font-size: 150px;
+    background-image: url(Фон.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+  
+}
+
+.card {
+    width: 370px;
+    margin-bottom: 50px;
+    padding: 40px 40px 70px;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    background-size: auto;
+}
+
+
+content{
+    font-size: 0;
+    width: 800px;
+    margin: 100px auto 50px;
+
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    color: black;
+    text-decoration: none;
+    transition: margin-left 4s, color 1s;
+    
+
+}
+.card-title:hover{
+    color: rgb(27, 187, 30);
+    text-decoration: underline;
+}
+
+
+.card-image {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    outline: 3px solid #00af64;
+    ;
+}
+.card-text {
+    font-size: 16px;
+}
+.footer {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    
+}
+
+.footer-author {
+    color: white;
+    font-size: 24px;
+    margin: auto;
+}
